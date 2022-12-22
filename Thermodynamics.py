@@ -93,28 +93,6 @@ def finalTemperatureVolumeExpansion(beta, initialVolume, finalVolume, initialTem
 
 print("This is a calculator for Thermodynamics\n")
 
-print("iv : initial Volume of container\n fv : final volume of container\n it : initial temperature of gas\n ft : final temperature of gas\n ip : initial pressure of gas in container\n")
-print("fp : final pressure of gas in container\nb : coefficient of volume expansion\n il: initial length\n fl : final length\n a: coefficient of linear expansion")
-
-value = input("select an option you would like to solve for: \t")     
-
-if(value.lower() == 'iv')
-
-elif(value.lower() == 'fv')
-
-<<<<<<< Updated upstream
-elif(value.lower() == 'it')
-
-elif(value.lower() == 'ft')
-
-elif(value.lower() == 'ip')
-
-elif(value.lower() == 'fp')
-
-elif(value.lower() == 'b')
-
-
-=======
 print("\n iv : initial Volume of container | fv : final volume of container\n it : initial temperature of gas | ft : final temperature of gas\n")
 print("ip : initial pressure of gas in container | fp : final pressure of gas in container\n b : coefficient of volume expansion | a: coefficient of linear expansion\n")
 print("il: initial length | fl : final length\n")
